@@ -1,8 +1,10 @@
 ﻿#if UNITY_ANDROID
+using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Kogane.Internal
 {
+    [UsedImplicitly]
     internal class AndroidRestarter : IApplicationRestarter
     {
         void IApplicationRestarter.Restart()

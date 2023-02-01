@@ -9,6 +9,8 @@ namespace Kogane
             new EditorRestarter();
 #elif UNITY_ANDROID
             new AndroidRestarter();
+#elif UNITY_IOS
+            new iOSRestarter();
 #else
             null;
 #endif
